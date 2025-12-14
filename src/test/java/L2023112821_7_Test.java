@@ -102,7 +102,7 @@ public class L2023112821_7_Test {
         List<List<Integer>> pairs = new ArrayList<>();
         pairs.add(Arrays.asList(0, 1));
         String result = solution.smallestStringWithSwaps(s, pairs);
-        assertEquals("ab", result);
+        assertEquals("ba", result);
     }
     
     /**
